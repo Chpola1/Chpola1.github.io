@@ -37,6 +37,13 @@
             <figcaption>Изображениe с атрибутами <code>width 300</code> и <code>height 400</code>.</figcaption>
         </figure>
 
+		<figure>
+            <img src="redcat.jpg" 
+            srcset="redcat.jpg 400w, redcat.jpg 800w"  
+            sizes="(max-width: 600px) 400px, 800px">
+            <figcaption>Изображение с атрибутами <code>srcset</code> и <code>sizes</code>.</figcaption>
+        </figure>
+
 		<h2>Подпись к изображению</h2>
 		<p>Для группирования любых элементов, например, изображений и подписей к ним используется элемент <code>figure</code>.
 		Он не должен быть связан непосредственно с основным содержимым документа и при его перемещении в другое место смысл текста не должен меняться. 
