@@ -1,53 +1,31 @@
 body {
-    background-image: url('images3/mountains_favicon.jpg');
-    background-size: 650px;
-    font-family: Arial, sans-serif;
-    color: #2C3E50;
+    font-family: 'Roboto', sans-serif; /* Используем шрифт Roboto для всего документа */
+    background: url('path/to/your/background-image.jpg') no-repeat center center fixed; /* Установите путь к вашему фону */
+    background-size: cover; /* Бесшовный фон */
+    color: #333; /* Цвет текста */
     margin: 0;
     padding: 0;
 }
 
-h1,
-h2 {
-    font-family: 'Roboto', sans-serif;
-    color: #1565C0;
-}
-
-strong {
-    font-family: 'Caveat', cursive;
-    font-size: 1.2em;
-    color: #0277BD;
+.wrapper {
+    max-width: 800px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+    padding: 20px; /* Внутренние отступы */
 }
 
 article {
-    background: rgba(227, 242, 253, 0.9);
-    border: 3px solid #42A5F5;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4CAF50; /* Цвет рамки */
+    border-radius: 10px; /* Скругление углов */
+    margin: 20px 0; /* Внешние отступы */
+    padding: 15px; /* Внутренние отступы */
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для статьи */
 }
 
-article h1 {
-    margin-top: 0;
+h1, h2 {
+    font-family: 'Roboto', sans-serif; /* Заголовки с шрифтом Roboto */
 }
 
-p {
-    margin-bottom: 10px;
-}
-
-hr {
-    border: none;
-    height: 3px;
-    background: #42A5F5;
-    margin: 30px 0;
-}
-
-.wrapper {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+strong {
+    font-family: 'Caveat', cursive; /* Элемент strong с шрифтом Caveat */
+    color: #FF5722; /* Цвет текста для strong */
 }
